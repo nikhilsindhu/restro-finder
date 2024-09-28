@@ -1,11 +1,14 @@
 {
-  "name": "restro",
+  "name": "restro-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "@faker-js/faker": "^9.0.3",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.79.4"
   },
   "scripts": {
     "start": "react-scripts start",

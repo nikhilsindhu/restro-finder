@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+// Import assets
+import "./assets/styles/app.scss";
+
+// Import components
+import Home from "./Pages/Home";
+
+// Import Context
+import { RestroListProvider } from "./context/restroListContext";
+
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RestroListProvider>
+      <Home />
+    </RestroListProvider>
   );
-}
+};
 
 export default App;
