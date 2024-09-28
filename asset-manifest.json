@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.38710035.css",
-    "main.js": "/static/js/main.964d0007.js",
-    "static/media/hero-bg-1.jpg": "/static/media/hero-bg-1.46ca62a0a1a614b3da87.jpg",
-    "index.html": "/index.html",
-    "main.38710035.css.map": "/static/css/main.38710035.css.map",
-    "main.964d0007.js.map": "/static/js/main.964d0007.js.map"
+    "main.css": "/restro-finder/static/css/main.7c2a6f9f.css",
+    "main.js": "/restro-finder/static/js/main.964d0007.js",
+    "static/media/hero-bg-1.jpg": "/restro-finder/static/media/hero-bg-1.46ca62a0a1a614b3da87.jpg",
+    "index.html": "/restro-finder/index.html",
+    "main.7c2a6f9f.css.map": "/restro-finder/static/css/main.7c2a6f9f.css.map",
+    "main.964d0007.js.map": "/restro-finder/static/js/main.964d0007.js.map"
   },
   "entrypoints": [
-    "static/css/main.38710035.css",
+    "static/css/main.7c2a6f9f.css",
     "static/js/main.964d0007.js"
   ]
 }
